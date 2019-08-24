@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>dados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<img [src]="caminho" >
+
+<ul>
+    <li>Nome:{{nome}}</li>
+    <li>Idade:{{idade}}</li>
+    <li>Email:{{email}}</li>
+    <li>Telefone:{{telefone}}</li>    
+</ul>
+<ul>
+    <li>Nome:{{pessoa.nome}}</li>
+    <li>Idade:{{pessoa.idade}}</li>
+    <li>Email:{{pessoa.email}}</li>
+    <li>Telefone:{{pessoa.telefone}}</li>
+</ul>
+<!--
+<input type="text" [(ngModel)]="nome" >
+<br>
+<h4>Nome:{{nome}}</h4>-->
+
+</ion-content>
