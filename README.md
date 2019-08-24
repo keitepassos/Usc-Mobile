@@ -1,2 +1,2 @@
-"# Discriplina-Mobile" 
+"# Disciplina-Mobile" 
 node_modules/
